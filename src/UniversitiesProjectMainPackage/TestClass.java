@@ -35,12 +35,6 @@ public class TestClass {
             Gson gson = new Gson();
             ArrayList<MyObject> myObj = gson.fromJson(json.toString(),ArrayList.class);
             
-            for (MyObject obj : myObj) {
-                System.out.println(" "+obj.name);
-                System.out.println(" "+obj.web_pages);
-                System.out.println(" "+obj.country);
-                System.out.println(" "+obj.alpha_two_code);
-            }
             // Use myObj for further processing
             System.out.println("Done");
           
